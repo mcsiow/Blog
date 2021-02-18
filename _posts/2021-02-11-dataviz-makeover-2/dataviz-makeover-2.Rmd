@@ -41,7 +41,8 @@ The original visualisation (as follows) shows the willingness of the public on C
 | 2.   	| Good font and good font size to detailed out the information.                                                        	| To maintain the use of good font and good font size.     	|
 | 3.   	| The choice of color for the bar is distracting and overwhelming. 	| To change the color scheme.                     	|
 | 4.   	| The left chart was sorted based on country while the right chart was sorted based on percentage of “strongly agreed”. Is hard for reader to match the result for the two charts. Moreover, the information presented in the right chart could be found in the left as well. Is redundant to show the information again (Waste of space).    	| Do not repeat information presented.                       	|
-| 5.   	| The gridline for the left chart is too soft / light. Making it hard for reader to use it to reference the values. 	| To darken the gridline.
+| 5.   	| The gridline for the left chart is too soft / light. Making it hard for reader to use it to reference the values. 	| To darken the gridline.|
+| 6.   	| The X-axis for the right chart stopped at 60%. However, the value for United Kingdom goes beyond 60%. There is a need to extend the tick mark for the X-axis 	| To extend the tick marks for x-axis.
 
 
 
