@@ -42,7 +42,7 @@ The original visualisation (as follows) shows the willingness of the public on C
 | 3.   	| The choice of color for the bar is distracting and overwhelming. 	| To change the color scheme.                     	|
 | 4.   	| The left chart was sorted based on country while the right chart was sorted based on percentage of “strongly agreed”. Is hard for reader to match the result for the two charts. Moreover, the information presented in the right chart could be found in the left as well. Is redundant to show the information again (Waste of space).    	| Do not repeat information presented.                       	|
 | 5.   	| The gridline for the left chart is too soft / light. Making it hard for reader to use it to reference the values. 	| To darken the gridline.|
-| 6.   	| The X-axis for the right chart stopped at 60%. However, the value for United Kingdom goes beyond 60%. There is a need to extend the tick mark for the X-axis 	| To extend the tick marks for x-axis.
+| 6.   	| The X-axis for the right chart stopped at 60%. However, the value for United Kingdom goes beyond 60%. There is a need to extend the tick marks for the X-axis 	| To extend the tick marks for x-axis.
 
 
 
@@ -130,7 +130,7 @@ The Advantages or issues that the alternative design tries to overcome are:
 13. Go to Customise and uncheck "Show All Value". This will remove the (All) value <br><br>   ![](images/screenshot.60.jpg) <br><br> ![](images/screenshot.116.jpg) <br><br>      
 14. On the "Gantt Negative Percent" card, click on tooltip and edit the tooltip.    <br><br>   ![](images/screenshot.108.jpg){width=100%} <br><br>  
 15. Sheets can be added to the tooltip by clicking on the "Insert"    <br><br>   ![](images/screenshot.110.jpg) <br><br> 
-16. Change to tooltip with the code as displayed.  <br><br>   ![](images/screenshot.122.jpg) <br><br> 
+16. Change to tooltip with the code as displayed.  <br><br>   ![](images/screenshot.137.jpg) <br><br> 
 17. Repeat the process for "Gantt Positive Percent" card. Only different is to insert "Conf_Positive" sheet to the 95% Confidence Interval portion.  <br><br> ![](images/screenshot.123.jpg){width=100%}<br><br> 
 18. Repeat the process for "Gantt Neutral Percent" card. Only different is to insert "Conf_Neutral" sheet to the 95% Confidence Interval portion. <br><br> ![](images/screenshot.124.jpg){width=100%}<br><br>
 19. Change the title for Main by right clicking on the title and choose Edit Title. <br><br> ![](images/screenshot.114.jpg) <br><br> 
@@ -142,7 +142,7 @@ The Advantages or issues that the alternative design tries to overcome are:
 
 # Final Data Visualisation Output
 
-![](images/screenshot.69.jpg){width=100%}<br><br>![](images/screenshot.125.jpg){width=100%} <br><br>  
+![](images/screenshot.69.jpg){width=100%}<br><br>![](images/screenshot.135.jpg){width=100%} <br><br>  
 
 ## Observation 1
 
@@ -161,8 +161,8 @@ For all the vaccine-related questions (except "I am worried about getting Covid1
 
 ## Observation 3
 
-For all the vaccine-related questions (except "I am worried about getting Covid19" and "I am worried about the potential side effects of a Covid19 vaccine"), participants from United-Kingdom and Denmark constantly had the highest percentage of Agree/Strongly Agree and lowest percentage of Disagree/Strongly Disagree across the different questions related to Covid-19 vaccine. The two countries also had the narrowest interval between the upper and lower limit, indicating that the result are precised. Figure shows result for one of the questions.<br><br>
+For all the vaccine-related questions (except "I am worried about getting Covid19" and "I am worried about the potential side effects of a Covid19 vaccine"), participants from United-Kingdom and Denmark constantly had the highest percentage of Agree/Strongly Agree and lowest percentage of Disagree/Strongly Disagree across the different questions related to Covid-19 vaccine. The two countries also had the narrowest interval between the upper and lower limit, indicating that the result are precised and less uncertainty. Figure shows result for one of the questions.<br><br>
 
 ![](images/screenshot.129.jpg){width=100%}<br>  
-![](images/screenshot.130.jpg){width=100%} <br><br>  
+![](images/screenshot.136.jpg){width=100%} <br><br>  
 
