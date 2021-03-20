@@ -232,7 +232,7 @@ Readers who are interested in more details, able to navigate to the next dashboa
 ## Observation 1
 
 Based on the Choropleth Map, it shows that Philippines had the most number of conflicts between 2015 to 2020. Focusing on Philippines, it can be observed that the number of fatalities due to violent conflicts gradually decreases from 2016. 
-<br><br>![](images/screenshot.146.jpg){width=100%} <br> ![](images/screenshot.145.jpg){width=100%} <br> 
+<br><br>![](images/screenshot.146.jpg){width=100%} <br> ![](images/screenshot.145.jpg){width=100%} <br>  ![](images/screenshot.159.jpg){width=100%} <br> 
 
 
 ## Observation 2
@@ -254,5 +254,5 @@ Battles and Violence against Civilians resulted in most number of fatalities.
 
 ## Observation 5
 
-Kalimantan (Indonesia) is relatively peaceful, without much conflicts from 2015 to 2020. Most of the conflicts happened at the borders of Kalimantan.
-<br><br>![](images/screenshot.158.jpg){width=100%} <br> 
+Kalimantan (Indonesia) is relatively peaceful, without much conflicts from 2015 to 2020. Most of the conflicts happened at the borders of Kalimantan.It can also be observed that there is a spikes in the number of Protests in Indonesia and Thailand in 2020.
+<br><br>![](images/screenshot.158.jpg){width=100%} <br> ![](images/screenshot.160.jpg){width=100%} <br> 
