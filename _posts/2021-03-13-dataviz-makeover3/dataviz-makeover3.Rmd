@@ -113,9 +113,8 @@ The Advantages or issues that the alternative design tries to overcome are:
 8. For the Country Filter to be applied to other sheets. Choose Selected Worksheets. <br><br> ![](images/screenshot.51.jpg) <br><br>
 9. Allow the filter to be applied to all sheets. Click on Apply to Worksheets. <br><br> ![](images/screenshot.50.jpg){width=100%}  <br><br>
 10. Put Event Date to Filter and choose Range of Date (1 Jan 2015 to 31 Dec 2020). <br><br> ![](images/screenshot.98.jpg){width=100%}  <br><br>![](images/screenshot.99.jpg){width=100%}  <br><br>
-11. Add in a reference line by right clicking on the pane. <br><br>![](images/screenshot.132.jpg)  <br><br>
-12. Apply the filter to all the sheets.<br><br>![](images/screenshot.100.jpg)  <br><br>
-
+11. Apply the filter to all the sheets.<br><br>![](images/screenshot.100.jpg)  <br><br>
+12. Add in a reference line by right clicking on the pane. <br><br>![](images/screenshot.132.jpg)  <br><br>
 
 - <b>Create Visualisation for ToolTip1</b> <br><br> 
 1. Put Country to Columns, Event_Overview to Rows and Event Id Cnty to Text (changing measures to Cnt).<br><br>![](images/screenshot.110.jpg){width=100%}  <br><br> 
@@ -141,14 +140,14 @@ The Advantages or issues that the alternative design tries to overcome are:
 
 
 - <b>Create Visualisation for ByCountry</b> <br><br> 
-1. Put Country and Event Date to Columns, Event Id Cnty (Change measure to Cnt) to Rows and Event Type to Color. <br><br> ![](images/screenshot.119.jpg)  <br><br> 
-2. Change to Line, under Marks Card. <br><br> ![](images/screenshot.120.jpg)  <br><br>
+1. Put Country and Event Date to Columns, Event Id Cnty (Change measure to Cnt) to Rows and Event Type to Color. <br><br> ![](images/screenshot.119.jpg){width=100%}  <br><br> 
+2. Change to Line, under Marks Card. <br><br> ![](images/screenshot.120.jpg){width=100%}  <br><br>
 3. Change the Axis title to Total by double clicking on it. <br><br> ![](images/screenshot.121.jpg)  <br><br>
 4. Put Display Sheet to Filter. Select Custom Value List and put in By Country <br><br> ![](images/screenshot.122.jpg)  <br><br> 
 5. Save the sheet as ByCountry. <br><br>
 
 - <b>Create Visualisation for ByEvent</b> <br><br> 
-1. Duplicate ByCountry. <br><br> ![](images/screenshot.123.jpg)  <br><br>
+1. Duplicate ByCountry. <br><br> ![](images/screenshot.123.jpg){width=100%}  <br><br>
 2. Replace Country with Event Type. <br><br> ![](images/screenshot.124.jpg)  <br><br>
 3. Put Display Sheet to Filter. Select Custom Value List and put in By Event <br><br> ![](images/screenshot.125.jpg)  <br><br> 
 4. Save the sheet as ByEvent. <br><br>
