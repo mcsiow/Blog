@@ -28,7 +28,7 @@ The original visualisation (as follows) reveal the spatio-temporal patterns of a
 | 1.   	| Under the "Armed Conflict Event by Type" chart, the Y-axis for each of the event type did not start from 0 and had different interval values. This will mislead the reader in thinking that the line chart are of the same value scale. | To standardise the Y-axis interval.         	|
 | 2.   	| Under the "Armed Conflict Event by Type" chart, the title of the Y-axis ("Count of Sheet1") is not intuitive. Unsure what the Y-value actually meant. | To change the title of the Y-axis.           	|
 | 3.   	| The title for the left chart stated that the map shows information on Myanmar. However, the title for the right chart did not confirm that the information showed in the right charts are for Myanmar. | To label the title clearly.           	|
-| 4.    | Besides showing the location of the events that occurs, the colored circles on the map serve no other purposes. Moreover, multiple events could happened on the same location and could not be picked up by the readers. Will be good to show summation of number of events that occur on a particular location. | To provide summation information.|
+| 4.    | The colored circles on the map show the location of individual events. As multiple events could happened on the same location, the overlapping information might not be picked up by the readers. Will be good to show summation of number of events that occur on a particular location. This will allow readers to know the frequency in which a particular events had occurred. | To provide summation of number of events that occurs on a particular location.|
 
 ## Aesthetics
 
@@ -36,8 +36,8 @@ The original visualisation (as follows) reveal the spatio-temporal patterns of a
 |-----	|----------------------------------------------------------------------------------------------------------------------	|----------------------------------------------------------	|
 | 1.   	| The colored circles on the map had covered the labeling for "Myanmar". Will be good to label the country so that readers know that is the map for Myanmar.                           	| To label the countries clearly.   	|
 | 2.   	| Under the "Armed Conflict Event by Type" chart, the value after 2019 could not be seen clearly. | To show the value of the X-axis clearly.  |   
-| 3.    | The labeling on the right chart should use darker color tone to make it more prominent. | To use darker color tone for label.      |
-| 4.    | No X-axis gridline for the right chart. Hard to interpret the value for the x-axis (Year).       | To include gridline for X-axis.    |
+| 3.    | The labeling on the "Armed Conflict Event by Type" chart should use darker color tone to make it more prominent. | To use darker color tone for label.      |
+| 4.    | No X-axis gridline for the "Armed Conflict Event by Type" chart. Hard to interpret the value for the x-axis (Year).       | To include gridline for X-axis.    |
 
 
 ## Interactivity
@@ -45,7 +45,7 @@ The original visualisation (as follows) reveal the spatio-temporal patterns of a
 | **S/N**	| **CRITIQUES**                                                                                                            	| **SUGGESTIONS**                                              	|
 |-----	|----------------------------------------------------------------------------------------------------------------------	|----------------------------------------------------------	|
 | 1.   	| Currently, readers are only able to filter by country. Should also allow readers to filter by event types so that he can focus on the information that he wanted.  |To allow readers to select and focus on the event of his choice as well. 	|
-| 2.    | The tooltip show the Event ID Cnty, Longitude, Latitude and Event Type. The information presented is not useful to readers.Could provide more statistical information to the readers. | To provide more statistical information in the tooltips. | 
+| 2.    | The tooltip show the Event ID Cnty, Longitude, Latitude and Event Type.  The information presented is not useful to readers.Could provide more statistical information to the readers. | To provide more statistical information in the tooltips. | 
 
 
 # Proposed Design
@@ -84,13 +84,14 @@ The Advantages or issues that the alternative design tries to overcome are:
 - <b>Create Visualisation for EventType</b> <br><br> 
 1. Put "Event Date to Column, Event Type to Rows, Event Id Cnty to Rows. <br><br> ![](images/screenshot.10.jpg){width=100%}  <br><br> 
 2. Change the Measure for Event Id Cnty to Count. <br><br> ![](images/screenshot.11.jpg){width=100%}  <br><br>
-3. Change the CNT(Event Id Cnty) to Bar under Marks card. <br><br> ![](images/screenshot.92.jpg){width=100%}  <br><br>
+3. Change the CNT(Event Id Cnty) to Bar under Marks card. <br><br> ![](images/screenshot.92.jpg)  <br><br>
 4. Put Fatalities to Rows. <br><br> ![](images/screenshot.12.jpg){width=100%}  <br><br>
-5. Change the Fatalities to Line under Marks card. <br><br> ![](images/screenshot.91.jpg){width=100%}  <br><br>
+5. Change the Fatalities to Line under Marks card. <br><br> ![](images/screenshot.91.jpg)  <br><br>
 6. Convert SUM(Fatalities) into Dual Axis. <br><br> ![](images/screenshot.15.jpg){width=100%}  <br><br>
 7. Synchronise the axes. <br><br> ![](images/screenshot.16.jpg){width=100%}  <br><br>
 8. Unhide the Show Header <br><br> ![](images/screenshot.17.jpg){width=100%}  <br><br>
-9. Edit the axis to change the title of the Y-axis to Total. <br><br> ![](images/screenshot.18.jpg){width=100%}  <br><br>![](images/screenshot.19.jpg)  <br><br>
+9. Edit the axis to change the title of the Y-axis to Total. <br><br> ![](images/screenshot.18.jpg){width=100%} 
+<br><br>![](images/screenshot.19.jpg)  <br><br>
 10. Bring the Mark to front. <br><br> ![](images/screenshot.20.jpg){width=100%}  <br><br>
 11. Change the Color of the Bar and Line by clicking on Color and edit color. <br><br> ![](images/screenshot.93.jpg)  <br><br> ![](images/screenshot.94.jpg){width=100%}  <br><br>
 12. Put Year to Detail under CNT(Event Id Cnty) Marks card and Rename the Title of the Chart. 
@@ -106,10 +107,10 @@ The Advantages or issues that the alternative design tries to overcome are:
 2. Rename the sheet as EventOverview. <br><br>
 3. Replace EventType in Rows with Event_Overview.  <br><br> ![](images/screenshot.97.jpg){width=100%}  <br><br>
 4. Rename the Measure Name. <br><br> ![](images/screenshot.42.jpg){width=100%}  <br><br>
-5. Change the Alias. <br><br> ![](images/screenshot.43.jpg){width=100%}  <br><br>![](images/screenshot.44.jpg){width=100%}  <br><br>
+5. Change the Alias. <br><br> ![](images/screenshot.43.jpg){width=100%}  <br><br>![](images/screenshot.44.jpg)<br><br>
 6. Put Country to Filter. <br><br> ![](images/screenshot.46.jpg)  <br><br>
 7. Click on Show Filter. <br><br> ![](images/screenshot.47.jpg){width=100%}  <br><br>
-8. Choose Selected Worksheets. <br><br> ![](images/screenshot.51.jpg) <br><br>
+8. For the Country Filter to be applied to other sheets. Choose Selected Worksheets. <br><br> ![](images/screenshot.51.jpg) <br><br>
 9. Allow the filter to be applied to all sheets. Click on Apply to Worksheets. <br><br> ![](images/screenshot.50.jpg){width=100%}  <br><br>
 10. Put Event Date to Filter and choose Range of Date (1 Jan 2015 to 31 Dec 2020). <br><br> ![](images/screenshot.98.jpg){width=100%}  <br><br>![](images/screenshot.99.jpg){width=100%}  <br><br>
 11. Add in a reference line by right clicking on the pane. <br><br>![](images/screenshot.132.jpg)  <br><br>
