@@ -189,7 +189,6 @@ The Advantages or issues that the alternative design tries to overcome are:
 15. Save the sheet as MapOverview. <br><br>
 
 
-
 - <b>Create Dashboard - MainDash</b> <br><br> 
 1. Drag MapOverview and EventOverview to the Dashboard. <br><br>![](images/screenshot.131.jpg){width=100%} <br><br>
 2. Resize and rearrange the "Menu Bar". Add in a Navigation Button by selecting it under Object. <br><br>![](images/screenshot.133.jpg)<br><br>![](images/screenshot.141.jpg) <br><br>
@@ -202,6 +201,7 @@ The Advantages or issues that the alternative design tries to overcome are:
 4. Hold down shift key and drag ByCountry to the "Floating Pane". <br><br>![](images/screenshot.137.jpg){width=100%} <br><br>
 5. Repeat steps 3 and 4 for ByEvent.
 6. Add a Text object to the center of the dashboard. <br><br>![](images/screenshot.139.jpg){width=100%} <br><br>![](images/screenshot.138.jpg){width=100%} <br><br>
+7. Add the parameter to the "Legend Bar", so as to allow the selection of different views. Click on the triangle at the Container. <br><br>![](images/screenshot.161.jpg){width=100%} <br><br>![](images/screenshot.162.jpg){width=100%} <br><br>
 7. Resize and rearrange the "Legend Bar". Add in a Navigation Buttons <br><br>![](images/screenshot.140.jpg) <br><br>
 8. Rename the dashboard as DetailedDash.<br><br>
 
